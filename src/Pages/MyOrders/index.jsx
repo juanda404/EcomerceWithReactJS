@@ -1,9 +1,10 @@
+import Layout from '../../Components/Layout'
 function MyOrders() {
 
   return (
-      <div className="bg-lime-400	">
+      <Layout>
             MyOrders
-      </div>
+      </Layout>
   )
 }
 
