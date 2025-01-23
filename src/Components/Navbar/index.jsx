@@ -107,7 +107,7 @@ const Navbar = () =>{
                 <li className='flex flex-row'> 
                   <ShoppingCartIcon className='size-4 text-black-500 '></ShoppingCartIcon>
                   <div>
-                  {context.count } 
+                  {context.cartProducts.length } 
                   </div>
            
                 </li>
