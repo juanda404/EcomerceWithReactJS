@@ -30,7 +30,7 @@ import ShoppingCart from '../../Components/ShoppingCart'
         return(
           <>
             <li className="text-black/60">
-                 juandavidsantamaria@gmail.com
+                 {parsedAccount?.email}
                 </li>
                 <li>
                  <NavLink 
